@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+$logo-font: "Monoton", cursive;
+$stack-font: "Roboto", sans-serif;
+$primary-color: #ffc61a;
+$white-color:#fff;
+
+.text-center {
+    text-align: center;
+}
+
+.btn {
+    border: none;
+    display: inline-block;
+    padding: 0.5rem 2rem;
+    &-light {
+        border: 1px solid #fff;
+        color: #fff;
+        transition: all 0.4s ease-in;
+        &:hover {
+            border: none;
+            background-color: #fff;
+            color: #333;
+            font-weight: bold;
+        }
+    }
+    &-dark {
+        border: 1px solid #333;
+        color: #fff;
+        background-color: #333;
+        transition: all 0.4s ease-in;
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+}
+
+.py {
+    &-1 {
+        padding: 1rem 0;
+    }
+    &-2 {
+        padding: 2rem 0;
+    }
+    &-3 {
+        padding: 3rem 0;
+    }
+    &-4 {
+        padding: 4rem 0;
+    }
+}
+.my {
+    &-1 {
+        margin: 1rem 0;
+    }
+    &-2 {
+        margin: 2rem 0;
+    }
+    &-3 {
+        margin: 3rem 0;
+    }
+    &-4 {
+        margin: 4rem 0;
+    }
+}
